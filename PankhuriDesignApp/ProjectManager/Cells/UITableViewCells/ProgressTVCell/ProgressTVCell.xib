@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ProgressTVCell" rowHeight="83" id="KGk-i7-Jjw" customClass="ProgressTVCell" customModule="PankhuriDesignApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="445" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F3r-WS-1vj">
+                        <rect key="frame" x="16" y="8" width="413" height="134"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="Zbl-VV-SIP">
+                                <rect key="frame" x="16" y="16" width="381" height="4"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.61127477880000003" green="0.82004421949999995" blue="0.27826485039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRb-yc-ECX">
+                                <rect key="frame" x="16" y="36" width="381" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoC-8A-Br7" customClass="ButtonWithImage" customModule="PankhuriDesignApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="72.5" width="381" height="45"/>
+                                <color key="backgroundColor" red="0.61127477880000003" green="0.82004421949999995" blue="0.27826485039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="e6Y-Dc-xn6"/>
+                                </constraints>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="80" maxY="0.0"/>
+                                <state key="normal" title="Upload todays look" image="ic_upload">
+                                    <color key="titleColor" red="0.93324214220000001" green="0.95766574140000005" blue="0.89410895109999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93324214220000001" green="0.95766574140000005" blue="0.89410895109999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="134" id="0nE-cn-aVb"/>
+                            <constraint firstItem="jRb-yc-ECX" firstAttribute="leading" secondItem="F3r-WS-1vj" secondAttribute="leading" constant="16" id="9Vd-dk-FJx"/>
+                            <constraint firstItem="jRb-yc-ECX" firstAttribute="top" secondItem="Zbl-VV-SIP" secondAttribute="bottom" constant="16" id="Iy6-Yq-y2c"/>
+                            <constraint firstAttribute="trailing" secondItem="EoC-8A-Br7" secondAttribute="trailing" constant="16" id="JV1-am-QZz"/>
+                            <constraint firstAttribute="trailing" secondItem="Zbl-VV-SIP" secondAttribute="trailing" constant="16" id="O56-pJ-KY4"/>
+                            <constraint firstItem="EoC-8A-Br7" firstAttribute="leading" secondItem="F3r-WS-1vj" secondAttribute="leading" constant="16" id="TbD-bl-khy"/>
+                            <constraint firstItem="EoC-8A-Br7" firstAttribute="top" secondItem="jRb-yc-ECX" secondAttribute="bottom" constant="16" id="Wba-mK-mze"/>
+                            <constraint firstAttribute="trailing" secondItem="jRb-yc-ECX" secondAttribute="trailing" constant="16" id="Xdr-uw-0K5"/>
+                            <constraint firstItem="Zbl-VV-SIP" firstAttribute="leading" secondItem="F3r-WS-1vj" secondAttribute="leading" constant="16" id="tf4-Rm-qng"/>
+                            <constraint firstItem="Zbl-VV-SIP" firstAttribute="top" secondItem="F3r-WS-1vj" secondAttribute="top" constant="16" id="wyw-um-Nth"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="F3r-WS-1vj" secondAttribute="trailing" constant="16" id="SXE-Fj-O5R"/>
+                    <constraint firstItem="F3r-WS-1vj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="pxO-WU-jPE"/>
+                    <constraint firstAttribute="bottom" secondItem="F3r-WS-1vj" secondAttribute="bottom" constant="8" id="qhk-G3-xRe"/>
+                    <constraint firstItem="F3r-WS-1vj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="sm3-8L-Oz7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLbl" destination="jRb-yc-ECX" id="Fx8-g2-Nck"/>
+                <outlet property="mainView" destination="F3r-WS-1vj" id="z5L-yV-fwf"/>
+                <outlet property="progressBar" destination="Zbl-VV-SIP" id="g0i-Rj-jd7"/>
+                <outlet property="uploadBtn" destination="EoC-8A-Br7" id="Ma8-y4-Kiz"/>
+            </connections>
+            <point key="canvasLocation" x="47.10144927536232" y="103.125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_upload" width="128" height="128"/>
+    </resources>
+</document>

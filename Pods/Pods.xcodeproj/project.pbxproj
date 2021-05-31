@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B6BBF909BB0FA4C250AB18E694C3AD /* ExpandableStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220EC22F9958A6B47B762D6113903B51 /* ExpandableStyle.swift */; };
+		204A6E95882F28B8C56A1E63556A7BE8 /* ExpandableCell.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3622F72FA63309E6C35F046F3EA39327 /* ExpandableCell.bundle */; };
+		2A9E6F826DDE8432234ADD9AF7457984 /* Pods-PankhuriDesignApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFEA9E67F2AACB9C426D76E33F10F9CA /* Pods-PankhuriDesignApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36D947485EEFF7670DD61272AFDB287C /* ExpandableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4518580906CEB750ECC557384F42D1D /* ExpandableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D88045663951DEB50BAB4B2D38C430 /* Pods-PankhuriDesignApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBA0DB9DAABFF38D16F90515026C20A /* Pods-PankhuriDesignApp-dummy.m */; };
+		6D17821B0E2C3E241F63C4BD214DFFA4 /* ExpandableCell.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2A400D6E46847E463484E0F5612C85 /* ExpandableCell.xcassets */; };
+		7D18D40D5B428042E414E93E6857713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		91EB41CF8FF1F42F56910AD9658DD08F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9D3A8391DC361E13DADFD6BDD8DB6534 /* ExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1450A30956B99EB4F48148D25A166 /* ExpandableTableView.swift */; };
+		A1C41F00B8ED31CDEA9C10FBBB4955A0 /* ExpandableProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8946ABF228FC82D8C45BD226603827 /* ExpandableProcessor.swift */; };
+		B6A20657E215DD9ECA06A019ABDA5868 /* ExpandableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA096A121DA8CE36F04152A29EB165 /* ExpandableDelegate.swift */; };
+		C43248DB5DC9F273F051EBFFEEDADB44 /* ExpandableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6DB5073F5ACF402E6474CB48A4C73 /* ExpandableCell-dummy.m */; };
+		C4F21833FFCFAC315D79510AA5E2564A /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4635D934CF7F06C5B4FBB1FFCFA9796 /* ExpandableCell.swift */; };
+		F025D57494924368913E1D50936E4563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F01E59FE7A27F138B10407863414E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080916906CF38C9BA8FA4DEB79FF606F;
+			remoteInfo = "ExpandableCell-ExpandableCell";
+		};
+		8F5F9886A3D8D2C91E915904506AD561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1AF3B7650BDFBF8B76B95E5E445176F;
+			remoteInfo = ExpandableCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E5CE0E15E83DA54AAB37753FD3F8A4 /* ExpandableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ExpandableCell.modulemap; sourceTree = "<group>"; };
+		220EC22F9958A6B47B762D6113903B51 /* ExpandableStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandableStyle.swift; path = ExpandableCell/ExpandableStyle.swift; sourceTree = "<group>"; };
+		2EA00291203ABD22BADC6BB0B5DBABD8 /* Pods-PankhuriDesignApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PankhuriDesignApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3622F72FA63309E6C35F046F3EA39327 /* ExpandableCell.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ExpandableCell.bundle; path = "ExpandableCell-ExpandableCell.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E73ACBE23BD87325064B534C0753863 /* ExpandableCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ExpandableCell-Info.plist"; sourceTree = "<group>"; };
+		4591C2007E3379587C4C63A9CAE17535 /* Pods_PankhuriDesignApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PankhuriDesignApp.framework; path = "Pods-PankhuriDesignApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		519799014C941762D5B22054194AB122 /* ExpandableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ExpandableCell.framework; path = ExpandableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDA096A121DA8CE36F04152A29EB165 /* ExpandableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandableDelegate.swift; path = ExpandableCell/ExpandableDelegate.swift; sourceTree = "<group>"; };
+		62CD35CB6D15E5EDE917789103F3B874 /* ResourceBundle-ExpandableCell-ExpandableCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ExpandableCell-ExpandableCell-Info.plist"; sourceTree = "<group>"; };
+		6DBA0DB9DAABFF38D16F90515026C20A /* Pods-PankhuriDesignApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PankhuriDesignApp-dummy.m"; sourceTree = "<group>"; };
+		72F8F6A5792A1177E7D0C083AAB005B2 /* Pods-PankhuriDesignApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PankhuriDesignApp-Info.plist"; sourceTree = "<group>"; };
+		7D4DF2EE532C7C1B93BD707AAF56CC70 /* ExpandableCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpandableCell.debug.xcconfig; sourceTree = "<group>"; };
+		851658448185A677C794C84D3512137D /* Pods-PankhuriDesignApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PankhuriDesignApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D412B4CDF9EDB58043F814ED6CBFB8 /* ExpandableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpandableCell-prefix.pch"; sourceTree = "<group>"; };
+		B4518580906CEB750ECC557384F42D1D /* ExpandableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpandableCell-umbrella.h"; sourceTree = "<group>"; };
+		BA0C5875DAFF97F9897D1D42CC7D9F24 /* ExpandableCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpandableCell.release.xcconfig; sourceTree = "<group>"; };
+		BB1617167314908F6FD3AD0CE229AC9F /* Pods-PankhuriDesignApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PankhuriDesignApp.modulemap"; sourceTree = "<group>"; };
+		BCA1450A30956B99EB4F48148D25A166 /* ExpandableTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandableTableView.swift; path = ExpandableCell/ExpandableTableView.swift; sourceTree = "<group>"; };
+		C793EF8F7D5E1069ECDB4EBF40B22143 /* Pods-PankhuriDesignApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PankhuriDesignApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E6F6DB5073F5ACF402E6474CB48A4C73 /* ExpandableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpandableCell-dummy.m"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB2A400D6E46847E463484E0F5612C85 /* ExpandableCell.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = ExpandableCell.xcassets; path = ExpandableCell/ExpandableCell.xcassets; sourceTree = "<group>"; };
+		EFEA9E67F2AACB9C426D76E33F10F9CA /* Pods-PankhuriDesignApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PankhuriDesignApp-umbrella.h"; sourceTree = "<group>"; };
+		F4635D934CF7F06C5B4FBB1FFCFA9796 /* ExpandableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandableCell.swift; path = ExpandableCell/ExpandableCell.swift; sourceTree = "<group>"; };
+		F5B027C837CCBA08DFB80FA89DA03067 /* Pods-PankhuriDesignApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PankhuriDesignApp-frameworks.sh"; sourceTree = "<group>"; };
+		FD8946ABF228FC82D8C45BD226603827 /* ExpandableProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandableProcessor.swift; path = ExpandableCell/ExpandableProcessor.swift; sourceTree = "<group>"; };
+		FFF00A008B7B57AA32EF86614C5CFD7E /* Pods-PankhuriDesignApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PankhuriDesignApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		620B96F8309C1298C968D36190EE2585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8842383EB79547C917FC66B72CA03ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D18D40D5B428042E414E93E6857713E /* Foundation.framework in Frameworks */,
+				F025D57494924368913E1D50936E4563 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7134A13B143E881A661E14BAD40DEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EB41CF8FF1F42F56910AD9658DD08F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F6B102C2034C72E63681BBC55E5EF3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62647A75AD353859A49EC847746AF263 /* Pods-PankhuriDesignApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2486FD9B050B89091A561EFF6F8B95DB /* ExpandableCell */ = {
+			isa = PBXGroup;
+			children = (
+				F4635D934CF7F06C5B4FBB1FFCFA9796 /* ExpandableCell.swift */,
+				5EDA096A121DA8CE36F04152A29EB165 /* ExpandableDelegate.swift */,
+				FD8946ABF228FC82D8C45BD226603827 /* ExpandableProcessor.swift */,
+				220EC22F9958A6B47B762D6113903B51 /* ExpandableStyle.swift */,
+				BCA1450A30956B99EB4F48148D25A166 /* ExpandableTableView.swift */,
+				8A4A6874B7F03B30DA4A0F4D9EFAA689 /* Resources */,
+				7C865DED9DF60251642A77C5CEFF934A /* Support Files */,
+			);
+			name = ExpandableCell;
+			path = ExpandableCell;
+			sourceTree = "<group>";
+		};
+		3B62B893D51CECE8B7656DA3C037BE03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3622F72FA63309E6C35F046F3EA39327 /* ExpandableCell.bundle */,
+				519799014C941762D5B22054194AB122 /* ExpandableCell.framework */,
+				4591C2007E3379587C4C63A9CAE17535 /* Pods_PankhuriDesignApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62647A75AD353859A49EC847746AF263 /* Pods-PankhuriDesignApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB1617167314908F6FD3AD0CE229AC9F /* Pods-PankhuriDesignApp.modulemap */,
+				851658448185A677C794C84D3512137D /* Pods-PankhuriDesignApp-acknowledgements.markdown */,
+				C793EF8F7D5E1069ECDB4EBF40B22143 /* Pods-PankhuriDesignApp-acknowledgements.plist */,
+				6DBA0DB9DAABFF38D16F90515026C20A /* Pods-PankhuriDesignApp-dummy.m */,
+				F5B027C837CCBA08DFB80FA89DA03067 /* Pods-PankhuriDesignApp-frameworks.sh */,
+				72F8F6A5792A1177E7D0C083AAB005B2 /* Pods-PankhuriDesignApp-Info.plist */,
+				EFEA9E67F2AACB9C426D76E33F10F9CA /* Pods-PankhuriDesignApp-umbrella.h */,
+				2EA00291203ABD22BADC6BB0B5DBABD8 /* Pods-PankhuriDesignApp.debug.xcconfig */,
+				FFF00A008B7B57AA32EF86614C5CFD7E /* Pods-PankhuriDesignApp.release.xcconfig */,
+			);
+			name = "Pods-PankhuriDesignApp";
+			path = "Target Support Files/Pods-PankhuriDesignApp";
+			sourceTree = "<group>";
+		};
+		7C865DED9DF60251642A77C5CEFF934A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E5CE0E15E83DA54AAB37753FD3F8A4 /* ExpandableCell.modulemap */,
+				E6F6DB5073F5ACF402E6474CB48A4C73 /* ExpandableCell-dummy.m */,
+				3E73ACBE23BD87325064B534C0753863 /* ExpandableCell-Info.plist */,
+				A0D412B4CDF9EDB58043F814ED6CBFB8 /* ExpandableCell-prefix.pch */,
+				B4518580906CEB750ECC557384F42D1D /* ExpandableCell-umbrella.h */,
+				7D4DF2EE532C7C1B93BD707AAF56CC70 /* ExpandableCell.debug.xcconfig */,
+				BA0C5875DAFF97F9897D1D42CC7D9F24 /* ExpandableCell.release.xcconfig */,
+				62CD35CB6D15E5EDE917789103F3B874 /* ResourceBundle-ExpandableCell-ExpandableCell-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ExpandableCell";
+			sourceTree = "<group>";
+		};
+		8A4A6874B7F03B30DA4A0F4D9EFAA689 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB2A400D6E46847E463484E0F5612C85 /* ExpandableCell.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0264F3D93F05B1BB0E9D3C8D7957BD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2486FD9B050B89091A561EFF6F8B95DB /* ExpandableCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				B0264F3D93F05B1BB0E9D3C8D7957BD8 /* Pods */,
+				3B62B893D51CECE8B7656DA3C037BE03 /* Products */,
+				11F6B102C2034C72E63681BBC55E5EF3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F1E789EE208110552C4498F0DC11CA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9E6F826DDE8432234ADD9AF7457984 /* Pods-PankhuriDesignApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07567D70CD1B61BF4975500291035E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D947485EEFF7670DD61272AFDB287C /* ExpandableCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		080916906CF38C9BA8FA4DEB79FF606F /* ExpandableCell-ExpandableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E954983F4F56E0C24F6EF3B5EA8BDDF /* Build configuration list for PBXNativeTarget "ExpandableCell-ExpandableCell" */;
+			buildPhases = (
+				9B49FA1B59274A69D897C318A5F39832 /* Sources */,
+				620B96F8309C1298C968D36190EE2585 /* Frameworks */,
+				D1A6BCF59C53A596895458E8C36B5C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExpandableCell-ExpandableCell";
+			productName = "ExpandableCell-ExpandableCell";
+			productReference = 3622F72FA63309E6C35F046F3EA39327 /* ExpandableCell.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5B848897CD70612FDEA7EA2E6D59BD84 /* Pods-PankhuriDesignApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CD298EF51708298E56B3BC64FF008E /* Build configuration list for PBXNativeTarget "Pods-PankhuriDesignApp" */;
+			buildPhases = (
+				1F1E789EE208110552C4498F0DC11CA7 /* Headers */,
+				EC943B474036FA1AFC7AF57980E22593 /* Sources */,
+				E7134A13B143E881A661E14BAD40DEBD /* Frameworks */,
+				133BD88E595BC25C11C0B70FC1982E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC58C3F62924633FBC658818BD2D883 /* PBXTargetDependency */,
+			);
+			name = "Pods-PankhuriDesignApp";
+			productName = "Pods-PankhuriDesignApp";
+			productReference = 4591C2007E3379587C4C63A9CAE17535 /* Pods_PankhuriDesignApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1AF3B7650BDFBF8B76B95E5E445176F /* ExpandableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE2D5A468110FB36F418B5E8BEE6D4F /* Build configuration list for PBXNativeTarget "ExpandableCell" */;
+			buildPhases = (
+				D07567D70CD1B61BF4975500291035E4 /* Headers */,
+				7078B7E127ADC95EC42E6A3DA050F906 /* Sources */,
+				8842383EB79547C917FC66B72CA03ECC /* Frameworks */,
+				5EE5543B2ECA5C5F7E01C57B528CFD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				317B639BF3E8FD174840080A9B91F2BB /* PBXTargetDependency */,
+			);
+			name = ExpandableCell;
+			productName = ExpandableCell;
+			productReference = 519799014C941762D5B22054194AB122 /* ExpandableCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3B62B893D51CECE8B7656DA3C037BE03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1AF3B7650BDFBF8B76B95E5E445176F /* ExpandableCell */,
+				080916906CF38C9BA8FA4DEB79FF606F /* ExpandableCell-ExpandableCell */,
+				5B848897CD70612FDEA7EA2E6D59BD84 /* Pods-PankhuriDesignApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133BD88E595BC25C11C0B70FC1982E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE5543B2ECA5C5F7E01C57B528CFD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204A6E95882F28B8C56A1E63556A7BE8 /* ExpandableCell.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A6BCF59C53A596895458E8C36B5C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D17821B0E2C3E241F63C4BD214DFFA4 /* ExpandableCell.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7078B7E127ADC95EC42E6A3DA050F906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43248DB5DC9F273F051EBFFEEDADB44 /* ExpandableCell-dummy.m in Sources */,
+				C4F21833FFCFAC315D79510AA5E2564A /* ExpandableCell.swift in Sources */,
+				B6A20657E215DD9ECA06A019ABDA5868 /* ExpandableDelegate.swift in Sources */,
+				A1C41F00B8ED31CDEA9C10FBBB4955A0 /* ExpandableProcessor.swift in Sources */,
+				19B6BBF909BB0FA4C250AB18E694C3AD /* ExpandableStyle.swift in Sources */,
+				9D3A8391DC361E13DADFD6BDD8DB6534 /* ExpandableTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B49FA1B59274A69D897C318A5F39832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC943B474036FA1AFC7AF57980E22593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D88045663951DEB50BAB4B2D38C430 /* Pods-PankhuriDesignApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		317B639BF3E8FD174840080A9B91F2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ExpandableCell-ExpandableCell";
+			target = 080916906CF38C9BA8FA4DEB79FF606F /* ExpandableCell-ExpandableCell */;
+			targetProxy = 3F01E59FE7A27F138B10407863414E95 /* PBXContainerItemProxy */;
+		};
+		CEC58C3F62924633FBC658818BD2D883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExpandableCell;
+			target = F1AF3B7650BDFBF8B76B95E5E445176F /* ExpandableCell */;
+			targetProxy = 8F5F9886A3D8D2C91E915904506AD561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EE79DDDAE6F4D301D1F6529F09B72E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF00A008B7B57AA32EF86614C5CFD7E /* Pods-PankhuriDesignApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PankhuriDesignApp/Pods-PankhuriDesignApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PankhuriDesignApp/Pods-PankhuriDesignApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70445D2836B0DC6472FC75CAFC28AACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0C5875DAFF97F9897D1D42CC7D9F24 /* ExpandableCell.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ExpandableCell/ExpandableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ExpandableCell/ExpandableCell-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ExpandableCell/ExpandableCell.modulemap";
+				PRODUCT_MODULE_NAME = ExpandableCell;
+				PRODUCT_NAME = ExpandableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D3B5F552E62D8E9659E56118F15D1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4DF2EE532C7C1B93BD707AAF56CC70 /* ExpandableCell.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ExpandableCell/ExpandableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ExpandableCell/ExpandableCell-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ExpandableCell/ExpandableCell.modulemap";
+				PRODUCT_MODULE_NAME = ExpandableCell;
+				PRODUCT_NAME = ExpandableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		884B0C3A3C409F606B70C31B20C4881B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0C5875DAFF97F9897D1D42CC7D9F24 /* ExpandableCell.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ExpandableCell";
+				IBSC_MODULE = ExpandableCell;
+				INFOPLIST_FILE = "Target Support Files/ExpandableCell/ResourceBundle-ExpandableCell-ExpandableCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ExpandableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		91E9D59AFD2D96E6307AC6D0D14BB73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA00291203ABD22BADC6BB0B5DBABD8 /* Pods-PankhuriDesignApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PankhuriDesignApp/Pods-PankhuriDesignApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PankhuriDesignApp/Pods-PankhuriDesignApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE5865C03ED1F3AE875DD0172E8EBCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4DF2EE532C7C1B93BD707AAF56CC70 /* ExpandableCell.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ExpandableCell";
+				IBSC_MODULE = ExpandableCell;
+				INFOPLIST_FILE = "Target Support Files/ExpandableCell/ResourceBundle-ExpandableCell-ExpandableCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ExpandableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE2D5A468110FB36F418B5E8BEE6D4F /* Build configuration list for PBXNativeTarget "ExpandableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3B5F552E62D8E9659E56118F15D1A1 /* Debug */,
+				70445D2836B0DC6472FC75CAFC28AACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CD298EF51708298E56B3BC64FF008E /* Build configuration list for PBXNativeTarget "Pods-PankhuriDesignApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E9D59AFD2D96E6307AC6D0D14BB73A /* Debug */,
+				5EE79DDDAE6F4D301D1F6529F09B72E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E954983F4F56E0C24F6EF3B5EA8BDDF /* Build configuration list for PBXNativeTarget "ExpandableCell-ExpandableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5865C03ED1F3AE875DD0172E8EBCBF /* Debug */,
+				884B0C3A3C409F606B70C31B20C4881B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
